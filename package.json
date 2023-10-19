@@ -13,6 +13,7 @@
   "devDependencies": {
     "@hboictcloud/api": "1.0.0",
     "@hboictcloud/eslint-plugin": "1.0.0",
+    "@types/node": "^20.8.7",
     "@typescript-eslint/parser": "5.56.0",
     "eslint": "8.47.0",
     "glob": "9.3.2",

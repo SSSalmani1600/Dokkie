@@ -21,7 +21,7 @@ export default defineConfig((config) => {
         input[`app_${i}`] = e;
     });
 
-    const env = loadEnv(config.mode, process.cwd());
+    const env: Record<string, string> = loadEnv(config.mode, process.cwd());
 
     return {
         base: "./",
