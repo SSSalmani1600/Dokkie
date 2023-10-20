@@ -3,16 +3,17 @@
   color: white;
   font-family: 'Bebas Neue', sans-serif;
   text-decoration: none;
+  /* hierdoor worden alle letters gelinkt aan de google Font*/
 }
      
-     
      body {
+                        /* Background van de site*/
             height: 100vh;
             background: linear-gradient(#1331c6,#5787ed);
             
           }
- 
-
+   
+        /* Dit is de css code voor de dokkie textbox in het midden*/
           .text-box{
             font-size: 100px;
             font-family: sans-serif;
@@ -29,6 +30,8 @@
           font-family: 'Bebas Neue', sans-serif;
           }
 
+       
+          /* voor de navigatie balk aan de onderkant van de website zodat ze naast elkaar komen*/
         header ul{
         
         font-size: 17px;
@@ -44,6 +47,7 @@
     
       }
 
+      /* voor elke navigatie link voor hoe ver ze van elkaar afstaan*/
       nav li{
 
         position: fixed;
@@ -55,6 +59,7 @@
     
       }
 
+      /* deze is voor de link voor meer informatie zodat hij onder de DOKKie komt*/
       .midden{
         font-size: 25px;
         font-family: sans-serif;
